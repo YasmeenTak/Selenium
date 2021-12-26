@@ -50,6 +50,8 @@ public class SephoraSeleniumTask {
 		Thread.sleep(2000);
 		WebElement modalClose = driver.findElement(By.cssSelector("[data-at=\"modal_close\"]"));
 		modalClose.click();
+		
+		
 
 	}
 
